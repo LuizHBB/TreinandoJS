@@ -4,13 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de Doces</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Dedos de Mel</title>
 </head>
 
 <body>
     <div class="container">
-        
-    </div>    
+        <div class="titulo">
+            <h1>Seja bem-vindo à Dedos de Mel</h1>
+            <p>Aqui é onde a mágica mata sua fome e deixa com gostinho de quero mais!</p>
+        </div>
+        <div class="loja">
+            <div class="box" id="formulario">
+                <h3>O que deseja comprar??</h3>
+                <form>
+                    <div class="produtos">
+                        <div class="produto">
+                            <input type="checkbox" name="abacaxi" id="produto">Abacaxi Cristalizado
+                            <label for="p1_quantidade">Qtd.:</label> <input type="number" name="p1_quantidade" id="p1_quantidade" class="input_qtd">
+                            <p>Preço UND: 4 Galeões</p>
+                        </div>
+                        <div class="produto">
+                            <input type="checkbox" name="delicias" id="produto">Delícias Gasosas
+                            <label for="p2_quantidade">Qtd.: </label><input type="number" name="p2_quantidade" id="p2_quantidade" class="input_qtd">
+                            <p>Preço UND: 3 Galeões</p>
+                        </div>
+                        <div class="produto">
+                            <input type="checkbox" name="bombons" id="produto">Bombons Explosivos
+                            <label for="p3_quantidade">Qtd.:</label><input type="number" name="p3_quantidade" id="p3_quantidade"class="input_qtd">
+                            <p>Preço UND: 5 Galeões</p>
+                        </div>
+                    </div>
+                    <div class="botoes">
+                        <button type="submit" class="botao">Vender</button>
+                        <button type="reset" class="botao">Limpar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="box" id="resumo">
+                <h3>Resumo da venda:</h3>
+                <button type="submit" class="botao" >Confirmar</button>
+            </div>
+        </div>
+        <div class="confirmacao">
+            <h3>Venda finalizada!</h3>
+            <p>Você comprou <span class="venda-produtos">produtos</span> no valor de <span class="valor-vendas">valor</span> Galeões! </p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 
 </html>

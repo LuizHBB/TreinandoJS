@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #a86fb6;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container {
+    padding: 20px 20px;
+}
+.titulo {
+    text-align: center;
+}
+
+.loja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly   ;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    max-width: auto;
+    height: auto;
+}
+
+.produto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.input_qtd {
+    max-width: 50px;
+    border: 1px solid black;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.botao {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.8px solid blueviolet;
+
+    background-color: #fff;
+    color: blueviolet;
+
+    padding-inline: 10px 10px;
+}
+
+.botao:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.confirmacao{
+    text-align: center ;
+}
+
