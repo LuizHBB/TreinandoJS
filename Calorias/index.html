@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calorias</title>
+</head>
+<body>
+    <div class="container">
+        <div class="titulo">
+            <h1>Consumo de Calorias</h1>
+            <p>Será que está com uma dieta saudável?</p>
+        </div>
+        <div class="box">
+            <div class="perguntas">
+                <h2>Responda essas perguntas abaixo: </h2>
+                <div class="pergunta">
+                    <label for="paes">Quantos pães franceses voce come no dia?</label>
+                    <input type="number" name="qtd_paes" id="qtd_paes">
+                </div>
+                <div class="pergunta">
+                    <label for="paes">Quantos pacotes de bolacha recheada voce come no dia?</label>
+                    <input type="number" name="qtd_bolacha" id="qtd_bolacha">
+                </div>
+                <div class="pergunta">
+                    <label for="paes">Quantos copos de achocolatado voce toma no dia?</label>
+                    <input type="number" name="qtd_achocolatado" id="qtd_achocolatado">
+                </div>
+
+                <div class="Botoes">
+                    <button onclick="Calcular()">Calcular</button>
+                </div>
+            </div>
+            <div class="feedback">
+                <h2>Feedback da Alimentação</h2>
+                <div class="mensagem"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

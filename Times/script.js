@@ -11,13 +11,13 @@ function meuTime() {
         mensagem.style.backgroundColor = 'green';
         mensagem.style.color = 'white';
         mensagem.innerText = "Salve o alviverde imponente!";
-    }else if(time==="são Paulo"){
+    }else if(time==="são paulo"){
         mensagem.style.backgroundColor = 'white';
         mensagem.style.color = 'black';
         mensagem.innerText = "Agora quem da a bola é o Santos!";
     }else if(time==="santos"){
         mensagem.style.backgroundColor = 'black';
-        mensagem.style.color = 'red';
+        mensagem.style.color = 'white';
         mensagem.innerText = "Salve o tricolor paulista!";
     }
 }
